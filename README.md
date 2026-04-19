@@ -2,9 +2,7 @@
 
 A fully **local** voice transcription tool. Record audio in the browser, transcribe it using Whisper, and refine it with a local LLM. No data ever leaves your machine.
 
-![Recording](output/recording.png)
-![Transcript Result](output/transcript.png)
-![History Panel](output/history.png)
+![Homepage](output/homepage.png)
 
 ---
 
@@ -52,14 +50,6 @@ Browser (React)
 - **Node.js** 20+
 - **Python** 3.10+
 - **Ollama** installed and running - [ollama.com](https://ollama.com)
-
-### Hardware
-
-| | Minimum | Recommended |
-|---|---|---|
-| RAM | 8 GB | 16 GB+ |
-| GPU | None (CPU works) | NVIDIA 8 GB+ VRAM |
-| Storage | 5 GB free | 15 GB free |
 
 ---
 
