@@ -45,18 +45,25 @@ Browser (React)
 
 ## Screenshots
 
-| Homepage | Recording |
-|---|---|
-| ![Homepage](output/homepage.png) | ![Recording](output/when_a_person_starts_speaking.png) |
+**Homepage**
+![Homepage](output/homepage.png)
 
-| After Speaking | Processing |
-|---|---|
-| ![After Speaking](output/after_the_person_finishes_speaking.png) | ![Processing](output/after_processing_voice_to_generate_rawandcleanedtranscript.png) |
+**Recording in progress**
+![Recording](output/when_a_person_starts_speaking.png)
 
-| Raw and Cleaned Transcript | History |
-|---|---|
-| ![Transcript](output/rawandcleanedtranscript.png) | ![History](output/history_of_transcripts.png) |
+**After speaking**
+![After Speaking](output/after_the_person_finishes_speaking.png)
 
+**Processing transcript**
+![Processing](output/after_processing_voice_to_generate_rawandcleanedtranscript.png)
+
+**Raw and cleaned transcript**
+![Transcript](output/rawandcleanedtranscript.png)
+
+**Transcript history**
+![History](output/history_of_transcripts.png)
+
+**Searchable history**
 ![Searchable History](output/searchable_history.png)
 
 ---
