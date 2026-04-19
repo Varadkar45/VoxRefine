@@ -1,0 +1,55 @@
+# ── Dependencies ──────────────────────────────────
+node_modules/
+
+# ── Environment variables (contain secrets) ───────
+.env
+.env.local
+.env.*.local
+
+# ── Build outputs ─────────────────────────────────
+dist/
+build/
+
+# ── SQLite database (user data, not source code) ──
+*.db
+*.db-shm
+*.db-wal
+
+# ── Uploaded audio files (temporary) ─────────────
+backend/uploads/
+
+# ── Python virtual environment ────────────────────
+whisper-service/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Vite cache ────────────────────────────────────
+frontend/.vite/
+
+# ── Private documents (not for public repo) ───────
+project-journal.html
+project-journal.pdf
+detailed_code_explanation.html
+detailed_code_explanation.pdf
+
+# ── OS files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+
+# ── Puppeteer (dev tool, not project code) ────────
+node_modules/.cache/
