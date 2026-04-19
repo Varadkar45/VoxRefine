@@ -1,6 +1,6 @@
 # VoxRefine
 
-A fully **local** voice transcription tool. Record audio in the browser, transcribe it using Whisper, and refine it with a local LLM — no data ever leaves your machine.
+A fully **local** voice transcription tool. Record audio in the browser, transcribe it using Whisper, and refine it with a local LLM. No data ever leaves your machine.
 
 ![Recording](output/recording.png)
 ![Transcript Result](output/transcript.png)
@@ -10,14 +10,14 @@ A fully **local** voice transcription tool. Record audio in the browser, transcr
 
 ## Features
 
-- **In-browser recording** — record directly from your microphone
-- **Live waveform visualizer** — scrolling amplitude bars react to your voice in real time
-- **Local speech-to-text** — Whisper (via faster-whisper) runs entirely on your machine
-- **AI transcript cleaning** — removes filler words, fixes grammar using a local LLM (Ollama)
-- **Persistent history** — every transcript saved to SQLite, survives page refresh
-- **Search history** — live keyword search with highlighted matches
-- **Export to .txt** — one-click download of raw + cleaned transcript
-- **Zero cloud dependencies** — fully offline after initial model download
+- **In-browser recording** - record directly from your microphone
+- **Live waveform visualizer** - scrolling amplitude bars react to your voice in real time
+- **Local speech-to-text** - Whisper (via faster-whisper) runs entirely on your machine
+- **AI transcript cleaning** - removes filler words, fixes grammar using a local LLM (Ollama)
+- **Persistent history** - every transcript saved to SQLite, survives page refresh
+- **Search history** - live keyword search with highlighted matches
+- **Export to .txt** - one-click download of raw + cleaned transcript
+- **Zero cloud dependencies** - fully offline after initial model download
 
 ---
 
@@ -51,7 +51,7 @@ Browser (React)
 
 - **Node.js** 20+
 - **Python** 3.10+
-- **Ollama** installed and running — [ollama.com](https://ollama.com)
+- **Ollama** installed and running - [ollama.com](https://ollama.com)
 
 ### Hardware
 
@@ -116,13 +116,13 @@ npm install
 Open **3 terminals**:
 
 ```bash
-# Terminal 1 — LLM server
+# Terminal 1 - LLM server
 ollama serve
 
-# Terminal 2 — Backend (port 8000)
+# Terminal 2 - Backend (port 8000)
 cd backend && npm start
 
-# Terminal 3 — Frontend (port 5173)
+# Terminal 3 - Frontend (port 5173)
 cd frontend && npm run dev
 ```
 
@@ -132,13 +132,13 @@ Open **http://localhost:5173** in your browser.
 
 ## Usage
 
-1. Click **Record** — allow microphone access when prompted
-2. Speak — watch the waveform visualizer respond in real time
+1. Click **Record** - allow microphone access when prompted
+2. Speak - watch the waveform visualizer respond in real time
 3. Click **Stop**
-4. Click **Transcribe** — wait for Whisper + LLM to process
+4. Click **Transcribe** - wait for Whisper + LLM to process
 5. View **Raw** and **Cleaned** transcripts side by side
 6. Click **Export .txt** to download
-7. Past transcripts appear in the **History** panel below — searchable and deletable
+7. Past transcripts appear in the **History** panel below - searchable and deletable
 
 ---
 
